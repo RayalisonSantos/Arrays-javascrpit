@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Métodos Básicos de Arrays em JavaScript</h1>
+        <p>Apresentação dos principais métodos para manipulação de arrays.</p>
+      </header>
+    
+      <main>
+        <section>
+          <h2>Array.length</h2>
+          <p>Retorna o número de elementos em um array.</p>
+          <code>const frutas = ["maçã", "banana"];<br>console.log(frutas.length); // 2</code>
+        </section>
+    
+        <section>
+          <h2>Array.toString()</h2>
+          <p>Converte o array em uma string separada por vírgulas.</p>
+          <code>const frutas = ["maçã", "banana"];<br>console.log(frutas.toString()); // "maçã,banana"</code>
+        </section>
+    
+        <section>
+          <h2>Array.at()</h2>
+          <p>Retorna o elemento na posição especificada. Aceita índices negativos.</p>
+          <code>const frutas = ["maçã", "banana", "laranja"];<br>console.log(frutas.at(-1)); // "laranja"</code>
+        </section>
+    
+        <section>
+          <h2>Array.join()</h2>
+          <p>Junta todos os elementos do array usando um separador.</p>
+          <code>const frutas = ["maçã", "banana"];<br>console.log(frutas.join(" - ")); // "maçã - banana"</code>
+        </section>
+    
+        <section>
+          <h2>Array.pop()</h2>
+          <p>Remove o último elemento do array e o retorna.</p>
+          <code>const frutas = ["maçã", "banana"];<br>console.log(frutas.pop()); // "banana"</code>
+        </section>
+    
+        <section>
+          <h2>Array.push()</h2>
+          <p>Adiciona um ou mais elementos ao final do array.</p>
+          <code>const frutas = ["maçã"];<br>frutas.push("banana");<br>console.log(frutas); // ["maçã", "banana"]</code>
+        </section>
+      </main>
+    
+      <footer>
+        <p>Desenvolvido para fins educacionais - ADS</p>
+      </footer>
+</body>
+</html>
